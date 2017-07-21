@@ -1,0 +1,69 @@
+.nav-insure {
+	background-color: red;
+	border-color: black;
+}
+
+.nav-insure .navbar-right {
+	margin-right: 0px;
+}
+
+.navbar-header a.navbar-brand {
+	height: 80px;
+	line-height: 50px;
+	font-size: 22px;
+	font-family: ubuntu, sans-serif;
+	font-weight: 700;
+	color: white;
+}
+
+.navbar-header a.navbar-brand:hover {
+	color: white;
+	border: none;
+}
+
+.navbar-header a.navbar-brand:focus {
+	color: white;
+	border: none;
+}
+
+.nav-insure.navbar-default .navbar-nav>li>a {
+	height: 80px;
+	line-height: 50px;
+	font-size: 14px;
+	font-family: ubuntu, sans-serif;
+	color: white;
+	width: 110px;
+	text-align: center;
+}
+
+.nav-insure.navbar-default .navbar-nav>li>a:hover {
+	font-weight: 700;
+	background-color: black;
+}
+
+.nav-insure.navbar-default .navbar-nav>li>a:focus {
+	font-weight: 700;
+	background-color: black;
+}
+
+.nav-insure.navbar-default .navbar-nav>li>a.home {
+	border-color: red;
+	background: red url(../images/icon-home.svg) no-repeat left top;
+	background-size: cover;
+	width: 22px;
+	height: 22px;
+	margin: 20px;
+	border-style: solid;
+	border-width: 4px;
+	border-radius: 3px;
+}
+
+.nav-insure.navbar-default .navbar-nav>li>a.home:hover {
+	border-color: black;
+	background-color: black;
+}
+
+.nav-insure.navbar-default .navbar-nav>li>a.home:focus {
+	border-color: rgba(0, 0, 0, 0.40);
+	background-color: rgba(0, 0, 0, 0.40);
+}
