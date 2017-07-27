@@ -67,3 +67,43 @@
 	border-color: rgba(0, 0, 0, 0.40);
 	background-color: rgba(0, 0, 0, 0.40);
 }
+
+.navbar-main-contacts {
+	height: 40px;
+	background-color: black;
+}
+
+.navbar-main-contacts .phone-logo {
+	width: 24px;
+	height: 24px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	margin-top: 8px;
+	margin-left: 18px;
+	vertical-align: top;
+}
+
+.navbar-main-contacts .main-phone-number {
+	color: #F3FFE2;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: ubuntu, sans-serif;
+	font-weight: 700;
+	display: inline;
+}
+
+.main-cover {
+	height: 100vh;
+	position: relative;
+	transform: translateY(0px);
+	background-image: url(../images/header-bg.jpg);
+	background-attachment: scroll;
+	width: 100%;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	vertical-align: middle
+}
