@@ -105,5 +105,84 @@
 	-o-background-size: cover;
 	background-repeat: no-repeat;
 	text-align: center;
-	vertical-align: middle
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.main-message {
+	width: 1060px;
+	height: 300px;
+	background-color: red;
+	margin-top: 120px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-radius: 3px;
+	border-width: 0px;
+}
+
+.main-message .left {
+	width: 610px;
+	height: 100%;
+}
+
+.main-message .right {
+	width: 450px;
+	background-color: black;
+	height: 100%;
+	border-radius: 3px;
+	border-width: 0px;
+}
+
+.right-label-text {
+	font-family: raleway, sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	font-size: 28px;
+	line-height: 50px;
+	text-align: left;
+	margin: 20px;
+	margin-bottom: 10px;
+}
+
+.right-strong-text {
+	font-weight: 700;
+	color: red;
+}
+
+.right-description-text {
+	text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+	color: #A9ABAD;
+	font-family: open-sans, sans-serif;
+	padding-top: 10px;
+	line-height: 25px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.right-inputs {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	margin-right: 10px;
+}
+
+.right-inputs input {
+	flex: 1;
+	height: 50px;
+	margin-right: 10px;
+	color: #7F8995;
+	font-weight: 500;
+	min-height: 38px;
+	font-family: ubuntu, sans-serif;
+	padding: 6px;
+	border-radius: 3px;
+	border-width: 0px;
 }
