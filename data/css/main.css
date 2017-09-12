@@ -186,3 +186,80 @@
 	border-radius: 3px;
 	border-width: 0px;
 }
+
+.main-message-right-button {
+	height: 50px;
+	background-color: red;
+	margin-left: 20px;
+	margin-right: 20px;
+	border-radius: 3px;
+	border-width: 0px;
+	text-align: center;
+	font-family: raleway, sans-serif;
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.main-message-right-button:focus, .main-message-right-button:hover {
+	cursor: pointer;
+	background-color: #dc0000;
+}
+
+.img-auto {
+	background: url(../images/icon-auto.svg) no-repeat left top;
+}
+
+.img-health {
+	background: url(../images/icon-health.svg) no-repeat left top;
+}
+
+.img-home {
+	background: url(../images/icon-home.svg) no-repeat left top;
+}
+
+.img-life {
+	background: url(../images/icon-life.svg) no-repeat left top;
+}
+
+.img-pet {
+	background: url(../images/icon-pet.svg) no-repeat left top;
+}
+
+.img-travel {
+	background: url(../images/icon-travel.svg) no-repeat left top;
+}
+
+.main-message .left {
+	display: flex;
+	flex-direction: column;
+}
+
+.main-message .left-content {
+	flex: 1;
+}
+
+.main-message .left-tabs {
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+}
+
+.main-message .left-tabs .main-message-tab {
+	margin: 5px;
+}
+
+.main-message-tab-img {
+	margin: 10px;
+	width: 30px;
+	height: 30px;
+	background-size: cover;
+}
+
+.main-message .left-tabs .main-message-tab:focus, .main-message .left-tabs .main-message-tab:hover, .main-message-tab.active-tab {
+	cursor: pointer;
+	background-color: #dc0000;
+	border-radius: 3px;
+	border-width: 0px;
+}
