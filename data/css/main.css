@@ -237,6 +237,9 @@
 
 .main-message .left-content {
 	flex: 1;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 20px;
 }
 
 .main-message .left-tabs {
@@ -259,7 +262,38 @@
 
 .main-message .left-tabs .main-message-tab:focus, .main-message .left-tabs .main-message-tab:hover, .main-message-tab.active-tab {
 	cursor: pointer;
-	background-color: #dc0000;
+	background-color: #af0000;
 	border-radius: 3px;
 	border-width: 0px;
+}
+
+.main-message-label {
+	font-family: raleway, sans-serif;
+	font-weight: 300;
+	color: #FFFFFF;
+	font-size: 28px;
+	text-align: left;
+	line-height: 50px;
+}
+
+.left-strong-text {
+	font-weight: 700;
+	color: black;
+}
+
+.main-message-description-text {
+	text-align: left;
+	color: #eee;
+	font-family: open-sans, sans-serif;
+	line-height: 25px;
+	font-weight: 600;
+	font-size: 14px;
+}
+
+.left-content-tab {
+	display: none;
+}
+
+.active-content-tab {
+	display: block;
 }
