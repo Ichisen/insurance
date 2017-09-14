@@ -297,3 +297,32 @@
 .active-content-tab {
 	display: block;
 }
+
+.special-record {
+	background-color: black;
+	height: 120px;
+}
+
+.special-content {
+	height: 100%;
+	width: 1060px;
+	margin: auto;
+	display: flex;
+}
+
+.special-content-text {
+	width: 730px;
+	margin: 30px;
+	color: #F3FFE2;
+	font-size: 16px;
+	font-family: open-sans, sans-serif;
+	font-weight: 600;
+	line-height: 29px;
+}
+
+.special-content-action {
+	flex: 1;
+	padding-top: 30px;
+	font-weight: 700;
+}
+
