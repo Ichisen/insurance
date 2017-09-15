@@ -326,3 +326,77 @@
 	font-weight: 700;
 }
 
+.about-us-record {
+	height: 700px;
+	background: #FFFFFF url(../images/old_wall.jpg) repeat center top fixed;
+}
+
+.about-us-content {
+	width: 1300px;
+	margin: auto;
+	display: flex;
+	margin-top: 60px;
+}
+
+.about-us-content-left {
+	flex: 1;
+}
+
+.about-us-content-right {
+	flex: 1;
+}
+
+.about-us-content-title {
+	font-weight: 300;
+
+	color: #22262B;
+	font-size: 38px;
+	line-height: 46px;
+
+	text-align: left;
+	word-wrap: break-word;
+}
+
+.about-us-content-title-large {
+	font-weight: 700;
+}
+
+.about-us-content-line {
+	margin-top: 30px;
+	border-radius: 3px;
+	width: 100px;
+	background-color: red;
+	height: 4px;
+	margin-bottom: 30px;
+}
+
+.about-us-content-first-text {
+	color: #585B60;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: open-sans, sans-serif;
+}
+
+.about-us-content-second-text {
+	margin-top: 30px;
+	color: #585B60;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	font-family: open-sans, sans-serif;
+}
+
+.about-us-content-img {
+	height: 238px;
+	background-image: url(../images/about-us-photo.jpg);
+	margin-top: 30px;
+	width: 100%;
+	background-repeat: no-repeat;
+	background-color: transparent;
+	background-position: center top;
+	background-size: cover;
+	border-radius: 3px;
+	border-color: #000000;
+	border-width: 0px;
+}
