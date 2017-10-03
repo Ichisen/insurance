@@ -1,3 +1,7 @@
+.content-center {
+	margin: auto;
+}
+
 .nav-insure {
 	background-color: red;
 	border-color: black;
@@ -327,7 +331,7 @@
 }
 
 .about-us-record {
-	height: 700px;
+	height: 730px;
 	background: #FFFFFF url(../images/old_wall.jpg) repeat center top fixed;
 }
 
@@ -335,33 +339,37 @@
 	width: 1300px;
 	margin: auto;
 	display: flex;
-	margin-top: 60px;
+	margin-top: 80px;
 }
 
 .about-us-content-left {
 	flex: 1;
+	margin-right: 10px;
 }
 
 .about-us-content-right {
 	flex: 1;
+	margin-left: 10px;
+
 }
 
 .about-us-content-title {
 	font-weight: 300;
 
 	color: #22262B;
-	font-size: 38px;
+	font-size: 36px;
 	line-height: 46px;
 
 	text-align: left;
 	word-wrap: break-word;
 }
 
-.about-us-content-title-large {
+.title-large {
 	font-weight: 700;
+	font-size: 38px;
 }
 
-.about-us-content-line {
+.content-line {
 	margin-top: 30px;
 	border-radius: 3px;
 	width: 100px;
@@ -370,7 +378,7 @@
 	margin-bottom: 30px;
 }
 
-.about-us-content-first-text {
+.content-first-text {
 	color: #585B60;
 	font-weight: 600;
 	font-size: 18px;
@@ -399,4 +407,149 @@
 	border-radius: 3px;
 	border-color: #000000;
 	border-width: 0px;
+}
+
+.about-us-content-plus {
+	display: flex;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.plus-cell {
+	background-color: red;
+	border-radius: 3px;
+	height: 75px;
+}
+
+.plus-icon {
+	background: url(../images/plus-symbol.svg) no-repeat center center;
+	background-size: contain;
+	width: 35px;
+	height: 35px;
+	margin: 20px;
+}
+
+.about-us-content-plus .fact {
+	margin-left: 20px;
+}
+
+.about-us-content-plus .fact .fact-title {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 32px;
+	font-family: raleway, sans-serif;
+	color: black;
+}
+
+.about-us-content-plus .fact .fact-description {
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 29px;
+	font-family: open-sans, sans-serif;
+	color: #585B60;
+}
+
+.some-fact-record {
+	height: 620px;
+}
+
+.some-fact-record-bg {
+	background: transparent url(../images/facts-bg.jpg) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	height: 620px;
+	width: 100%;
+	z-index: -1;
+}
+
+.some-fact-record-fade {
+	background-color: #22262B;
+	opacity: 0.75;
+	position: absolute;
+	height: 620px;
+	width: 100%;
+}
+
+.some-fact-main-container {
+	position: absolute;
+	height: 620px;
+	width: 100%;
+	z-index: 10;
+}
+
+.some-fact-main-text {
+	padding-top: 60px;
+}
+
+.some-fact-title {
+	color: #FFFFFF;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 46px;
+	font-family: raleway, sans-serif;
+	text-align: center;
+}
+
+.some-fact-main-text .content-first-text {
+	color: #A9ABAD;
+	text-align: center;
+	margin: auto;
+	width: 800px;
+}
+
+.some-fact-record .main-facts {
+	margin: auto;
+	padding-top: 60px;
+	width: 1200px;
+	display: flex;
+}
+
+.some-fact-record .fact {
+	width: 300px;
+}
+
+.fact-round-first {
+	width: 160px;
+	height: 160px;
+	border-color: red;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 200px;
+	margin: auto
+}
+
+.fact-round-second {
+	margin-top: 3px;
+	margin-left: 3px;
+	width: 150px;
+	height: 150px;
+	border-color: red;
+	border-style: solid;
+	border-width: 6px;
+	border-radius: 200px;
+}
+
+.fact-img-clients {
+	background: transparent url(../images/icon-people.svg) no-repeat center center;
+}
+
+.fact-img {
+	width: 50px;
+	height: 50px;
+	border-color: red;
+	background-size: cover;
+	margin: auto;
+	margin-top: 44px;
+}
+
+.some-fact-record .fact>.fact-title {
+	font-size: 32px;
+	line-height: 38px;
+	color: #FFFFFF;
+	font-family: ubuntu, sans-serif;
+	text-align: center;
+	font-weight: 700;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
