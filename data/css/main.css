@@ -353,7 +353,7 @@
 
 }
 
-.about-us-content-title {
+.text-content-title {
 	font-weight: 300;
 
 	color: #22262B;
@@ -533,6 +533,14 @@
 	background: transparent url(../images/icon-people.svg) no-repeat center center;
 }
 
+.fact-img-like {
+	background: transparent url(../images/icon-like.svg) no-repeat center center;
+}
+
+.fact-img-office {
+	background: transparent url(../images/icon-office.svg) no-repeat center center;
+}
+
 .fact-img {
 	width: 50px;
 	height: 50px;
@@ -550,6 +558,28 @@
 	text-align: center;
 	font-weight: 700;
 	margin-top: 20px;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.services-record {
+	height: 730px;
+	background: #FFFFFF url(../images/old_wall.jpg) repeat center top fixed;
+	padding-top: 60px;
+}
+
+.center-content {
+	margin: auto;
+	text-align: center;
+}
+
+.content-line.center-content {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.services-record .content-first-text {
+	width: 800px;
+	margin: auto;
+	text-align: center;
 }
