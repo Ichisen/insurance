@@ -157,7 +157,7 @@
 	color: red;
 }
 
-.right-description-text {
+.base-content-description-text {
 	text-align: left;
 	margin-left: 20px;
 	margin-right: 20px;
@@ -191,7 +191,7 @@
 	border-width: 0px;
 }
 
-.main-message-right-button {
+.main-message-button {
 	height: 50px;
 	background-color: red;
 	margin-left: 20px;
@@ -205,7 +205,7 @@
 	line-height: 50px;
 }
 
-.main-message-right-button:focus, .main-message-right-button:hover {
+.main-message-button:focus, .main-message-button:hover {
 	cursor: pointer;
 	background-color: #dc0000;
 }
@@ -470,9 +470,9 @@
 	width: 100%;
 }
 
-.some-fact-main-container {
+.base-content-main-container {
 	position: absolute;
-	height: 620px;
+	height: 100%;
 	width: 100%;
 	z-index: 10;
 }
@@ -563,9 +563,9 @@
 }
 
 .services-record {
-	height: 730px;
 	background: #FFFFFF url(../images/old_wall.jpg) repeat center top fixed;
 	padding-top: 60px;
+	padding-bottom: 80px;
 }
 
 .center-content {
@@ -579,7 +579,390 @@
 }
 
 .services-record .content-first-text {
-	width: 800px;
-	margin: auto;
+    width: 80%;
+    margin: auto;
 	text-align: center;
+}
+
+.services-table {
+	display: flex;
+	margin: 30px;
+	flex-wrap: wrap;
+	border-color: red;
+	border-style: solid;
+	border-bottom: none;
+	border-right: none;
+	border-width: thin;
+}
+
+.services-cell {
+	flex: 1;
+	height: 350px;
+	border-color: red;
+	border-style: solid;
+	border-top: none;
+	border-left: none;
+	min-width: 350px;
+	border-width: thin;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.services-cell-icon-life {
+	background: red url(../images/icon-life.svg) no-repeat center center;
+}
+
+.services-cell-icon-health {
+	background: red url(../images/icon-health.svg) no-repeat center center;
+}
+
+.services-cell-icon-auto {
+	background: red url(../images/icon-auto.svg) no-repeat center center;
+}
+
+.services-cell-icon-travel {
+	background: red url(../images/icon-travel.svg) no-repeat center center;
+}
+
+.services-cell-icon-home {
+	background: red url(../images/icon-home.svg) no-repeat center center;
+}
+
+.services-cell-icon-pet {
+	background: red url(../images/icon-pet.svg) no-repeat center center;
+}
+
+.services-cell-icon {
+	border-radius: 3px;
+	border-color: red;
+	border-width: 20px;
+	position: relative;
+	border-style: solid;
+	height: 100px;
+	width: 100px;
+	background-size: cover;
+	margin: auto;
+}
+
+.services-cell-text {
+	font-size: 32px;
+	line-height: 38px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.text-large {
+	font-size: 34px;
+	font-weight: 700;
+}
+
+.services-cell-review {
+	background-color: black;
+	border-radius: 3px;
+	width:96%;
+	height: 96%;
+	padding: 20px;
+}
+
+.services-cell-none {
+	display: none;
+}
+
+.services-cell-review-text {
+	color: white;
+	font-family: raleway, sans-serif;
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.services-cell-review-text .text-large {
+	font-size: 32px;
+	color: red;
+}
+
+
+.services-cell-review .content-line {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.services-cell-review .base-content-description-text {
+	margin: 0px;
+	font-size: 15px;
+	padding: 0px;
+}
+
+.services-cell-preview {
+	position: absolute;
+}
+
+.feedback-record-bg {
+	background: transparent url(../images/testimonials-bg.jpg) no-repeat center center;
+	background-size: cover;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+}
+
+.feedback-record-fade {
+	background-color: #22262B;
+	opacity: 0.75;
+	position: absolute;
+	width: 100%;
+    height: 100%;
+}
+
+.feedback-record {
+    height: 620px;
+}
+
+.feedback-record .base-content-main-container {
+	padding-top: 100px;
+	padding-bottom: 60px;
+}
+
+.feedback-record-carousel {
+	height: 100%;
+}
+
+.feedback-item-content {
+	text-align: center;
+}
+
+.feedback-item-content .img-circle {
+	border-color: red;
+	border-width: 2px;
+	border-style: solid;
+}
+
+.feedback-item-name {
+	margin-top: 10px;
+	color: #FFFFFF;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	font-family: raleway, sans-serif;
+}
+
+.feedback-item-post {
+    font-size: 15px;
+    line-height: 18px;
+    color: red;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: 700;
+}
+
+.feedback-item-text {
+    font-size: 19px;
+    line-height: 25px;
+    color: #A9ABAD;
+    text-align: center;
+    font-weight: 700;
+    width: 80%;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.get-insure-record {
+    background: #FFFFFF url(../images/old_wall.jpg) repeat center top fixed;
+    padding-top: 60px;
+    padding-bottom: 80px;
+}
+
+.get-insure-record .content-first-text {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.call-table {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.call-cell {
+    flex: 1;
+    min-width: 445px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.call-icon {
+    width: 100px;
+    height: 100px;
+    border-style: solid;
+    border-width: 20px;
+    border-color: red;
+    border-radius: 3px;
+    background: red url(../images/ico-call-center.svg) no-repeat center center;
+    background-size: cover;
+    margin: auto;
+}
+
+.call-description {
+    font-size: 28px;
+    line-height: 36px;
+    color: black;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.call-number {
+    font-size: 50px;
+    line-height: 70px;
+    color: red;
+    font-family: ubuntu, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.call-photo {
+    height: 472px;
+    margin-top: 60px;
+    position: relative;
+    width: 100%;
+    background: rgba(0,0,0,0) url(../images/call-center-photo.jpg) no-repeat center top;
+    background-color: transparent;
+    background-size: cover;
+    border-radius: 3px;
+}
+
+.call-form {
+    background-color: black;
+    border-radius: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.cell-title {
+    color: white;
+    font-size: 28px;
+    line-height: 50px;
+    text-align: left;
+}
+
+.cell-title .title-large {
+    color: red;
+    font-size: 30px;
+}
+
+.inputs-table {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inputs-table input[type=text] {
+    flex: 1;
+    min-width: 205px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    height: 50px;
+    color: #7F8995;
+    font-weight: 500;
+    min-height: 38px;
+    font-family: ubuntu, sans-serif;
+    padding: 6px;
+    border-width: 0px;
+}
+
+.inputs-table .checkbox-line {
+    height: 20px;
+    margin: 20px 20px 10px;
+    min-width: 180px;
+    flex: 1;
+    display: flex;
+}
+
+.inputs-table input[type=checkbox] {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+.inputs-table label {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    line-height: 16px;
+    display: block;
+    max-width: 100%;
+    margin-bottom: 0px;
+    padding-top: 4px;
+    padding-left: 10px;
+}
+
+input[type=checkbox]:checked + label {
+    color: #a5a5a5;
+}
+
+.call-form .inputs-table.margin_top_null {
+	margin-top: 0px;
+}
+
+.call-form textarea {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-radius: 3px;
+    height: 100px;
+    width: calc(100% - 10px);
+    color: #7F8995;
+    font-weight: 500;
+    font-family: ubuntu, sans-serif;
+    padding: 6px;
+    border-width: 0px;
+    resize: none;
+}
+
+.call-form .main-message-button {
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.map-record {
+    height: 600px;
+}
+
+.map-record iframe {
+    width: 100%;
+}
+
+.contact-record {
+    padding: 40px;
+    background-color: black;
+    display: flex;
+}
+
+.contact-cell {
+    flex: 1;
+}
+
+.contact-cell.address-cell {
+    flex: 2;
+}
+
+.title-contact {
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    text-align: left;
+    line-height: 29px;
+    font-family: raleway, sans-serif;
 }
