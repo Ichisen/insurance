@@ -951,11 +951,11 @@ input[type=checkbox]:checked + label {
     display: flex;
 }
 
-.contact-cell {
+.contact-column {
     flex: 1;
 }
 
-.contact-cell.address-cell {
+.contact-column.address-column {
     flex: 2;
 }
 
@@ -966,4 +966,63 @@ input[type=checkbox]:checked + label {
     text-align: left;
     line-height: 29px;
     font-family: raleway, sans-serif;
+}
+
+.address-table {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.address-title {
+    color: white;
+    line-height: 29px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.address-description {
+    color: #c9cbcd;
+    line-height: 29px;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.address-table .text-large {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.address-cell {
+    min-width: 200px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+.address-phone {
+    color: white;
+    line-height: 29px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.address-phone span {
+    color: #c9cbcd;
+    font-weight: 400;
+}
+
+.address-email {
+    color: white;
+    line-height: 29px;
+    font-family: open-sans, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.address-email a {
+    font-weight: 400;
 }
