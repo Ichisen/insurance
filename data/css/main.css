@@ -717,6 +717,7 @@
 
 .feedback-record {
     height: 620px;
+	position: relative;
 }
 
 .feedback-record .base-content-main-container {
