@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bab6a5ed-5fea-499d-8699-bcb021bb0bf2" name="curie.timeweb.ru" url="http://curie.timeweb.ru">
+        <fileTransfer host="curie.timeweb.ru" port="21" rootFolder="/test/public_html">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

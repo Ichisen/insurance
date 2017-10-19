@@ -1026,3 +1026,54 @@ input[type=checkbox]:checked + label {
 .address-email a {
     font-weight: 400;
 }
+
+.contact-form-column {
+	max-width: 450px;
+}
+
+.contact-inputs {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.contact-inputs input[type=text] {
+	flex: 1;
+	min-width: 200px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px;
+	height: 50px;
+	color: black;
+	font-weight: 500;
+	min-height: 38px;
+	font-family: ubuntu, sans-serif;
+	padding: 6px;
+	border-width: 1.4px;
+	border-color: #aeaeae;
+	border-style: solid;
+	background-color: #2e2e2e;
+}
+
+.contact-form textarea {
+	margin-right: 10px;
+	margin-bottom: 5px;
+	border-radius: 3px;
+	width: calc(100% - 10px);
+	height: 150px;
+	color: black;
+	font-weight: 500;
+	min-height: 38px;
+	font-family: ubuntu, sans-serif;
+	padding: 6px;
+	border-width: 1.4px;
+	border-color: #aeaeae;
+	border-style: solid;
+	background-color: #2e2e2e;
+	resize: none;
+}
+
+.contact-button.main-message-button {
+	margin-left: 0px;
+	margin-right: 10px;
+}
