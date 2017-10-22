@@ -1077,3 +1077,24 @@ input[type=checkbox]:checked + label {
 	margin-left: 0px;
 	margin-right: 10px;
 }
+
+.modal-header.modal-header-popup {
+	background-color: red;
+}
+
+.modal-header-popup h4 {
+	color: white;
+	font-weight: 700;
+}
+
+.modal-body.modal-body-popup p {
+	font-weight: 700;
+}
+
+.modal-header-popup-error h4 {
+	color: red;
+	font-weight: 700;
+}
+
+
+
