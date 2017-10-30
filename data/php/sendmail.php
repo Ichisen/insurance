@@ -1,5 +1,5 @@
 <?php
-$to  = "alfironius@gmail.com" ;
+$to  = "v.strah@list.ru" ;
 
 $type = htmlspecialchars($_GET["type"]);
 $name = htmlspecialchars($_GET["name"]);
